@@ -1,0 +1,1414 @@
+﻿body {
+    margin: 0;
+     background-color: #ededed;
+}
+
+::selection {
+    color:#fff;
+    background-color:#333;
+   }
+
+
+#anadiv {
+    height: 1700px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+#ustbilgi {
+    height: 32px;
+    background-color: #2b2b2b;
+}
+
+#ustbilgiortalama {
+    width: 900px;
+    height: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9px;
+}
+
+#usttel {
+    width: 115px;
+    height: 20px;
+    font-size: 11px;
+    color: #fff;
+    font-family: sans-serif;
+    float: left;
+}
+
+#ustmail {
+    width: 115px;
+    height: 20px;
+    font-size: 11px;
+    color: #fff;
+    font-family: sans-serif;
+    float: left;
+    margin-left:10px;
+}
+
+#ustsocial {
+    width: 115px;
+    height: 20px;
+    float: left;
+    margin-left: 540px;
+}
+
+#ust_face_hiza {
+    margin-top: 1px;
+    float: left;
+}
+
+#ust_twit_hiza {
+    float: left;
+    margin-left: 3px;
+    margin-top: 0;
+}
+
+#ust_google_hiza {
+    margin-top: 1px;
+    float: left;
+    margin-left: 8px;
+}
+
+#ust_insta_hiza {
+    float: left;
+    margin-left: 8px;
+    margin-top: 1px;
+}
+
+.yazihover {
+    font-size: 11px;
+    color: #fff;
+    font-family: sans-serif;
+    float: left;
+    margin-left: 5px;
+}
+
+    .yazihover:hover {
+        font-size: 11px;
+        color: #fff;
+        font-family: sans-serif;
+        text-decoration: underline;
+        float: left;
+        margin-left: 5px;
+    }
+
+
+/*************Üst Bölüm Kodları*************/
+
+
+
+/***********Menü Bölüm Kodları**************/
+
+
+#centermenu {
+    height: 70px;
+    background-color: #e7f5f0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+#logo {
+    width: 165px;
+    height: 70px;
+    float: left;
+    background-color:#e0e0e0;
+    /*background-image:url(../haber_images/log.jpg);*/
+    margin-left: 70px;
+}
+
+#aramadiv {
+    width: 520px;
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 500px;
+}
+
+#aramatxt {
+    width: 140px;
+    height: 40px;
+    float: left;
+}
+
+
+.aramatxtcss {
+    width: 136px;
+    height: 27px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+}
+
+    .aramatxtcss:focus {
+        width: 136px;
+        height: 27px;
+        outline: none;
+        border: solid 1px #ccc;
+        border-radius: 3px;
+        -webkit-box-shadow: 0px 0px 14px 1px rgba(10,191,204,1);
+-moz-box-shadow: 0px 0px 14px 1px rgba(10,191,204,1);
+box-shadow: 0px 0px 14px 1px rgba(10,191,204,1);
+    }
+
+#passtxt {
+    width: 140px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+
+.passtxtcss {
+    width: 136px;
+    height: 27px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+}
+
+    .passtxtcss:focus {
+        width: 136px;
+        height: 27px;
+        outline: none;
+        border: solid 1px #ccc;
+        border-radius: 3px;
+      -webkit-box-shadow: 0px 0px 14px 1px rgba(10,191,204,1);
+-moz-box-shadow: 0px 0px 14px 1px rgba(10,191,204,1);
+box-shadow: 0px 0px 14px 1px rgba(10,191,204,1);
+
+    }
+
+#girisbtn {
+    width: 90px;
+    height: 30px;
+    float: left;
+    margin-left: 5px;
+}
+
+.girisbtncss {
+    width: 90px;
+    height: 30px;
+    border: solid 1px #8e3457;
+    background-color: #8e3457;
+    border-radius: 4px;
+    color: #fff;
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+}
+
+    .girisbtncss:focus {
+        width: 90px;
+        height: 30px;
+        border: solid 1px #8e3457;
+        background-color: #8e3457;
+        border-radius: 4px;
+        color: #fff;
+        outline: none;
+        filter: alpha(opacity=40);
+    }
+
+    .girisbtncss:hover {
+        width: 90px;
+        height: 30px;
+        border: solid 1px #8e3457;
+        background-color: #8e3457;
+        border-radius: 4px;
+        color: #fff;
+        outline: none;
+        opacity: 0.9;
+        filter: alpha(opacity=40);
+    }
+
+#sifreunuttxt {
+    width: 110px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.sifreunutcss {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #0a6d92;
+    font-size: 14px;
+}
+
+    .sifreunutcss:hover {
+        text-decoration: none;
+        font-family: sans-serif;
+        color: #000;
+        font-size: 14px;
+    }
+
+#menu {
+    height: 35px;
+    background-color: #e8e8e8;
+    padding-top: 5px;
+    border-bottom:solid 1px #ccc;
+}
+
+#menu1 {
+    width: 90px;
+    height: 23px;
+    margin-left: 70px;
+    background-color: #ccc;
+    border-radius: 40px;
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 7px;
+    float: left;
+}
+
+    #menu1:hover {
+        width: 90px;
+        height: 23px;
+        margin-left: 70px;
+        background-color: #fff;
+        border-radius: 40px;
+        color: #666;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 7px;
+        float: left;
+    }
+
+.menu2 {
+    width: 90px;
+    height: 23px;
+    margin-left: 5px;
+    background-color: #ccc;
+    border-radius: 40px;
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 7px;
+    float: left;
+}
+
+    .menu2:hover {
+        width: 90px;
+        height: 23px;
+        margin-left: 5px;
+        background-color: #fff;
+        border-radius: 40px;
+        color: #666;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 7px;
+        float: left;
+    }
+
+.menu3 {
+    width: 90px;
+    height: 23px;
+    margin-left: 5px;
+    background-color: #ccc;
+    border-radius: 40px;
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 7px;
+    float: left;
+}
+
+    .menu3:hover {
+        width: 90px;
+        height: 23px;
+        margin-left: 5px;
+        background-color: #fff;
+        border-radius: 40px;
+        color: #666;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 7px;
+        float: left;
+    }
+
+.menu4 {
+    width: 150px;
+    height: 23px;
+    margin-left: 5px;
+    background-color: #ccc;
+    border-radius: 40px;
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 7px;
+    float: left;
+}
+
+    .menu4:hover {
+        width: 150px;
+        height: 23px;
+        margin-left: 5px;
+        background-color: #fff;
+        border-radius: 40px;
+        color: #666;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 7px;
+        float: left;
+    }
+
+#menu5 {
+    width: 90px;
+    height: 23px;
+    margin-left: 550px;
+    background-color: #ccc;
+    border-radius: 40px;
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 7px;
+    float: left;
+}
+
+    #menu5:hover {
+        width: 90px;
+        height: 23px;
+        margin-left: 550px;
+        background-color: #fff;
+        border-radius: 40px;
+        color: #666;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 7px;
+        float: left;
+    }
+
+#menu6 {
+    width: 120px;
+    height: 23px;
+    margin-left: 5px;
+    background-color: #ccc;
+    border-radius: 40px;
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 7px;
+    float: left;
+}
+
+    #menu6:hover {
+        width: 120px;
+        height: 23px;
+        margin-left: 5px;
+        background-color: #fff;
+        border-radius: 40px;
+        color: #666;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 7px;
+        float: left;
+    }
+
+/**********Menu Kısmı Kodu************/
+
+
+
+
+/****************İçerik Kısmı**************/
+
+
+#kullanici_islemleri {
+    width: 145px;
+    height: 700px;
+    background-color: #fbfbfb;
+    float: left;
+    margin-top: 30px;
+    border: solid 1px #d5d5d5;
+    border-radius:5px;
+    margin-left: 25px;
+}
+
+
+
+
+#icerikdiv {
+    width: 1140px;
+    height: 800px;
+    float: left;
+    /*background-color:#ccc;*/
+}
+
+#reklamdiv {
+    width: 180px;
+    height: 700px;
+    float: left;
+    background-color: #ccc;
+    margin-top: 30px;
+}
+
+#reklamdivbaslik {
+    width: 180px;
+    height: 20px;
+    color: #cc0909;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #adadad;
+}
+
+
+
+
+
+/************Footer Kısmı Kodu**************/
+
+
+
+#footer {
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222222;
+    margin-top:1908px;
+}
+
+#footerust {
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2b2b2b;
+    border-bottom: 1px solid #666;
+    font-weight: bold;
+}
+
+#footerustort {
+    width: 700px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+#fotmenu1 {
+    width: 110px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+    font-size: 15px;
+    font-family: sans-serif;
+    float: left;
+}
+
+    #fotmenu1:hover {
+        width: 110px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        font-size: 15px;
+        font-family: sans-serif;
+        float: left;
+    }
+
+#fotmenu2 {
+    width: 110px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+    font-size: 15px;
+    font-family: sans-serif;
+    float: left;
+}
+
+    #fotmenu2:hover {
+        width: 110px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #FFF;
+        font-size: 15px;
+        font-family: sans-serif;
+        float: left;
+    }
+
+#fotmenu3 {
+    width: 110px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+    font-size: 15px;
+    font-family: sans-serif;
+    float: left;
+}
+
+    #fotmenu3:hover {
+        width: 110px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        font-size: 15px;
+        font-family: sans-serif;
+        float: left;
+    }
+
+#fotmenu4 {
+    width: 180px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+    font-size: 15px;
+    font-family: sans-serif;
+    float: left;
+}
+
+    #fotmenu4:hover {
+        width: 180px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        font-size: 15px;
+        font-family: sans-serif;
+        float: left;
+    }
+
+#fotmenu5 {
+    width: 110px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+    font-size: 15px;
+    font-family: sans-serif;
+    float: left;
+}
+
+    #fotmenu5:hover {
+        width: 110px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        font-size: 15px;
+        font-family: sans-serif;
+        float: left;
+    }
+
+#footersocial {
+    width: 790px;
+    height: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+#fotface {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+#fotface1 {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+    #fotface1:hover {
+        width: 60px;
+        height: 60px;
+        float: left;
+        transform: rotate(360deg);
+        transition: all 0.4s;
+    }
+
+
+.fotyan {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 40px;
+}
+
+
+
+.fotyan1 {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+    .fotyan1:hover {
+        width: 60px;
+        height: 60px;
+        float: left;
+        transform: rotate(360deg);
+        transition: all 0.4s;
+    }
+
+
+#fotsosisim {
+    width: 53px;
+    height: 15px;
+    margin-top: 5px;
+    color: #e0e0e0;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left;
+}
+
+.fotsosyalisim {
+    width: 57px;
+    height: 15px;
+    margin-top: 5px;
+    color: #e0e0e0;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left;
+}
+
+.fotsoslinkcss {
+    color: #e0e0e0;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+    .fotsoslinkcss:hover {
+        color: #fff;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-decoration: none;
+    }
+
+#fotsosyaltw {
+    width: 47px;
+    height: 15px;
+    margin-top: 5px;
+    color: #e0e0e0;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 8px;
+    float: left;
+}
+
+#fotsosyaltm {
+    width: 49px;
+    height: 15px;
+    margin-top: 5px;
+    color: #e0e0e0;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 8px;
+    font-family: sans-serif;
+    float: left;
+}
+
+#fotsosyalgo {
+    width: 49px;
+    height: 15px;
+    margin-top: 5px;
+    color: #e0e0e0;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left;
+}
+
+#fotsosyalin {
+    width: 60px;
+    height: 15px;
+    margin-top: 5px;
+    color: #e0e0e0;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left;
+}
+
+
+
+#footerilet {
+    width: 1050px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-bottom: 1px solid #333;
+}
+
+#fotmail {
+    width: 200px;
+    height: 30px;
+    color: #ee3f3f;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    float: left;
+    margin-left: 90px;
+}
+
+#fottel {
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    float: left;
+    margin-left: 100px;
+}
+
+#fotadres {
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    float: left;
+    margin-left: 100px;
+}
+
+
+#foteryazi {
+    width: 300px;
+    height: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+}
+
+/******************************Master Page Style File***********************************/
+
+
+
+/******************************Default Page Style File**********************************/
+
+
+
+.populer_konular {
+    width: 1080px;
+    height: 538px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 40px;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+}
+
+.popibaslik {
+    width: 1080px;
+    height: 40px;
+    background-image: url(../images/baslik.png);
+    padding-top: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: solid 1px #ccc;
+}
+
+.popibaslikdiv1 {
+    width: 160px;
+    height: 20px;
+    color: #0a6d92;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.popibaslikaltdiv {
+    width: 400px;
+    height: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #0fa9e2;
+}
+
+
+/****İÇERİK***/
+
+.konubaslik {
+    width: 1080PX;
+    height: 55px;
+    border-bottom: solid 1px #ccc;
+    padding-top: 5px;
+}
+
+.konubaslikresim {
+    width: 52px;
+    height: 50px;
+    margin-left: 15px;
+    float: left;
+    background-image: url(../images/mesaj_icon_konu.png);
+}
+
+.konubaslikyazi {
+    width: 550px;
+    height: 25px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #0a6d92;
+    font-weight: bold;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+    .konubaslikyazi:hover {
+        width: 550px;
+        height: 25px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-family: sans-serif;
+        font-size: 18px;
+        color: #07445b;
+        font-weight: bold;
+        padding-top: 5px;
+        text-decoration: none;
+    }
+
+
+#guncel_konular {
+    width: 1080px;
+    height: 416px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 40px;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+}
+
+
+#yazilim_konulari {
+    width: 1080px;
+    height: 416px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 40px;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+}
+
+
+
+
+/*****************************************Anasayfa kısmı************************************************/
+
+#beyazicerik {
+    width: 1010px;
+    height: 3443px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+}
+
+
+#sliderdiv {
+    width:470px;
+    float:left;
+    height:300px;
+}
+
+.haberanadiv {
+    width:490px;
+    height:457px;
+    float:left;
+    background-color:#ffd;
+    margin-left:20px;
+}
+
+.haberdiv2 {
+    width:220px;
+    height:180px;
+    float:left;
+    margin-left:15px;
+    background-color:#fff;
+}
+
+.haberdiv3 {
+    width:220px;
+    height:200px;
+    float:left;
+    margin-left:15px;
+    margin-top:35px;
+}
+
+
+.miniresim {
+    width:220px;
+    height:110px;
+    background-color:#8e3457;
+}
+
+
+
+.miniaciklama {
+    width:220px;
+    height:100px;
+}
+
+
+
+.haberdivara1 {
+  width:1000px;
+height:300px;
+margin-top:350px;
+}
+
+
+.haberdivgenis {
+width:270px;
+height:300px;
+background-color:#ffd;
+float:left;
+margin-left:15px;
+}
+
+.haberdivgenis2 {
+width:270px;
+height:300px;
+background-color:#ffd;
+float:left;
+margin-left:35px;
+}
+
+.reklam_alani {
+width:270px;
+height:300px;
+background-color:#ffd;
+float:left;
+margin-left:121px;
+}
+
+.reklam_alani_2 {
+    width:290px;
+height:300px;
+background-color:#ffd;
+margin-top:20px;
+float:left;
+}
+
+
+
+.haberdivgenis_resim {
+width:270px;
+height:130px;
+background-color:#ffd;
+}
+
+.haberdivgenis_yazi {
+width:270px;
+height:170px;
+
+}
+
+
+
+.baslikhaber {
+    width:1000px;
+    height:30px;
+    margin-top:35px;
+}
+
+
+.cok_okunan_haberler {
+    width:705px;
+    height:2600px;
+    float:left;
+    margin-bottom:15px;
+    margin-right: 5px;
+}
+
+
+.ana_sag_haberler {
+    width:290px;
+    height:1450px;
+    float:left;
+    margin-left:10px;
+    background-color:#e0e0e0;
+}
+
+
+.master_gozatilabilecek_seyler {
+        width:290px;
+        height:35px;
+        text-align:center;
+        background:linear-gradient(#fff,#005879);
+        color:#000;
+}
+
+
+.ana_sag_haber_sekme {
+        width:290px;
+        border-bottom:solid 1px #ccc;
+        height:65px;
+}
+
+
+
+.ana_sag_haber_sekme:hover {
+        width:290px;
+        border-bottom:solid 1px #ccc;
+        height:65px;
+        background-color:#00a6e4;
+}
+
+
+.ana_sag_haber_numara {
+    width:45px;
+    height:31px;
+    float:left;
+    text-align:center;
+    color:#0a6d92;
+    padding-top:25px;
+}
+
+.ana_sag_haber_yazi {
+    width:155px;
+    height:35px;
+    float:left;
+    margin-top:5px;
+}
+
+.ana_sag_haber_resim {
+    width:70px;
+    height:35px;
+    float:left;
+    margin-top:5px;
+    margin-left:10px;
+}
+
+
+.haber_kisa_div {
+    width:320px;
+    float:left;
+    background-color:#fff;
+    height:225px;
+}
+
+.haber_kisa_div_3 {
+    width:320px;
+    float:left;
+    height:225px;
+    margin-top:20px;
+}
+
+.haber_kisa_div_2 {
+    width:320px;
+    float:left;
+    height:220px;
+    margin-top:-218px;
+        background-color:#fff;
+}
+
+.haber_uzun_div {
+    width:300px;
+    float:left;
+    margin-left:24px;
+    height:473px;
+    background-color:#fff;
+}
+
+.uzun_haber_div {
+    width:300px;
+    height:300px;
+}
+
+.uzun_haber_div_yazi {
+    width:300px;
+    height:175px;
+}
+
+.haber_uzun_div_1 {
+    width:300px;
+    float:left;
+    margin-left:25px;
+    margin-right:25px;
+    background-color:#fff;
+    height:473px;
+}
+
+.uzun_haber_div_resim {
+        width:300px;
+        height:300px;
+        background-color:#08a8e4;
+}
+
+.kucuk_haberler {
+    width:705px;
+    height:160px;
+    float:left;
+    margin-top:50px;
+}
+
+.kucuk_haberler_2 {
+    width:705px;
+    height:320px;
+    float:left;
+    margin-top:15px;
+}
+
+
+.mini_haber_div {
+    width:260px;
+    height:320px;
+    float:left;
+    margin-left:55px;
+}
+
+
+
+#popi_konular_baslik {
+    margin-top:930px;
+}
+
+
+#popi_konular_baslik_1 {
+     margin-top:950px;
+}
+
+.genis_haber_resim_divi_er {
+    width:320px;
+    height:130px;
+}
+
+.genis_haber_yazi_divi_er {
+    width:320px;
+    background-color:#fff;
+     height:103px;
+}
+
+.genis_haber_yazi_divi_er_2 {
+    width:320px;
+    background-color:#fff;
+     height:117px;
+}
+
+.oyun_haberleri_div {
+    width:705px;
+    height:390px;
+    background-color:#fff;
+}
+
+
+.genis_haber_div_8 {
+    width:705px;
+    height:230px;
+}
+
+.genis_haber_yazi_divi {
+    width:705px;
+    height:120px;
+    font-size:18px;
+    font-family:Arial,sans-serif,Calibri;
+}
+
+#kullanici_resim {
+    width:60px;
+    height:60px;
+}
+
+/**********************************İLETİŞİM SAYFASI*****************************************/
+
+
+#iletisim_kontrol_div {
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#iletisimortadiv {
+    width: 540px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 40px;
+    border-radius: 12px;
+}
+
+#bizeulasin {
+    width: 200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    color: #2b2b2b;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.isimdiv1 {
+    width: 385px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.isimdiv {
+    width: 385px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid 1px #ccc;
+       outline: none;
+}
+
+    .isimdiv:focus {
+        width: 385px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        border:solid 1px #ccc;
+        outline: none;
+    }
+
+
+.mail {
+    width: 387px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid 1px #ccc;
+       outline: none;
+}
+
+    .mail:focus {
+        width: 387px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        border:solid 1px #ccc;
+        outline: none;
+    }
+
+        .mail1{
+        width: 387px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+         border:solid 1px #ccc;
+        outline: none;
+    }
+
+.mesac {
+    width: 387px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+     border:solid 1px #ccc;
+    overflow: auto;
+}
+
+    .mesac:focus {
+        width: 387px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+         border:solid 1px #ccc;
+        outline: none;
+        overflow: auto;
+    }
+
+.sumbitdiv {
+    width: 110px;
+    height: 50px;
+    border: solid 1px #fff;
+    margin-top: 170px;
+    margin-left: 57px;
+    color: #2b2b2b;
+}
+
+.gnderbtn {
+    width: 110px;
+    height: 50px;
+    border-bottom: solid 4px #2b2b2b;
+    border-top: solid 2px  #004e6b;
+    border-left: solid 2px  #004e6b;
+    border-right: solid 2px  #004e6b;
+    color: #fff;
+    background-color: #08a8e4;
+    border-radius: 7px;
+    font-weight:bold;
+}
+
+    .gnderbtn:focus {
+        width: 110px;
+        height: 50px;
+        border-bottom: solid 3px #2b2b2b;
+        border-top: solid 1px #08a8e4;
+        border-left: solid 1px #08a8e4;
+        border-right: solid 1px #08a8e4;
+        color: #fff;
+        background-color: #08a8e4;
+        border-radius: 7px;
+         font-weight:bold;
+        outline: none;
+    }
+
+
+    .gnderbtn:hover {
+        width: 110px;
+        height: 50px;
+        border-bottom: solid 3px #2b2b2b;
+        border-top: solid 1px #08a8e4;
+        border-left: solid 1px #08a8e4;
+        border-right: solid 1px #08a8e4;
+        color: #fff;
+        background-color: #065d7d;
+        border-radius: 7px;
+    }
+
+
+/*****************Yazı hizalama class*************************/
+
+.yazihizalama {
+    width: 1050px;
+    height: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+
+.baslikcopycss {
+    width: 500px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+
+
+.sifre {
+    width: 370px;
+    height: 35px;
+    font-size: 11px;
+    color: #000;
+    font-family: sans-serif;
+    float: left;
+    margin-left:10px;
+}
