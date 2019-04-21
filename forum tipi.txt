@@ -1,0 +1,251 @@
+ <div class="populer_konular">
+
+        <div class="popibaslik">
+            
+            <div class="popibaslikdiv1">
+                
+                Popüler Konular
+
+                <div class="popibaslikaltdiv">Burada en çok merak edilen ve güncel konulara ulaþabilirsiniz!</div>
+
+            </div>            
+
+        </div>
+
+
+
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="android_telefona_sizma.aspx" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Android Telefonlara Sýzma</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="sony_xperia_xz3_on_inceleme.aspx" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Sony Xperia XZ3 Ön Ýnceleme</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="dunyanin_ilk_yedinm_islemcisi.aspx" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Dünyanýn ilk 7 nm Ýþlemcisi: Kirin Tanýtýldý!</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="xionami_turkiye_bilmecesi_sona_erdi.aspx" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Xionami Türkiye Bilmecesi Sona Erdi!</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">49 TL'lik Steam Oyunu Tamamen Ücretsiz Oldu!</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Huawei P30 Ýçin Resmi Açýklama Geldi!</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">ÝOS 12 Beta 12 Yayýnlandý!</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">BÝM, Sahte Apple Ürünleri iddialarýna Cevap Verdi!</a></div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!--------------------------------------Güncel Konular---------------------------------------------->
+
+
+
+
+
+    <div id="guncel_konular">
+
+        <div class="popibaslik">
+            
+            <div class="popibaslikdiv1">
+                
+                Güncel Konular
+
+                <div class="popibaslikaltdiv">Burada en güncel konulara ulaþabilirsiniz!</div>
+
+            </div>            
+
+        </div>
+
+
+
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Telegram Beklenen Özelliði Sonunda Sundu</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Android Kullanýcýlarýna Karanlýk Mod Sürprizi!</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Haftanýn Android Uygulamalarý</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">ÝOS ve Android için Yepyeni Game Of Thrones Oyunu!</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Poco Launcher APK Dosyalarý Sýzdýrýldý</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Android Duvar Kaðýdý Bulma Uygulamalarý</a></div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!--------------------------------Yazýlým Haberleri---------------------------------->
+
+    <div id="yazilim_konulari">
+
+        <div class="popibaslik">
+            
+            <div class="popibaslikdiv1">
+                
+                Yazýlým Haberleri
+
+                <div class="popibaslikaltdiv">Burada yazýlým ile ilgili ilginç haberlere ulaþabilirsiniz!</div>
+
+            </div>            
+
+        </div>
+
+
+
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Huawei Kirin 980 Ýþlemcisi Neler Sunuyor? </a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Razer'dan Üç Yeni Oyuncu Ekipmaný!</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Acer Çýlgýn Oyuncu Koltuðunu Tanýttý!</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Nvidia'dan Görüntü Temizleme Teknolojisi!</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Normalden 18 Kat Güçlü SD Kartlar Geliyor!</a></div>
+
+        </div>
+
+
+        <div class="konubaslik">
+
+            <div class="konubaslikresim"></div>
+
+            <div class="konubaslikyazi"><a href="#" class="konubaslikyazi" style="margin-top:-4px; margin-left:0;">Klavye Maouse Ýle PUBG Mobile Oynadýk!</a></div>
+
+        </div>
+
+
+    </div>

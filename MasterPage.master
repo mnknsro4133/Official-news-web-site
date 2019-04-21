@@ -1,0 +1,262 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>TeknoBit Teknolojinin Güncel Adresi</title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+            <link href="css/style.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+   
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div id="anadiv">
+
+
+
+            <div id="ustbilgi">
+
+                <div id="ustbilgiortalama">
+
+                    <div id="usttel">
+                      <img src="images/tel_icon.png" style="float:left;" /> <div class="yazihover"> +90 216 577 63 00</div>
+                    </div>
+
+                    <div id="ustmail">
+                        <img src="images/mail_icon.png" style="float:left;" /> <div class="yazihover"> info@teknobit.com</div>
+                    </div>
+
+                    <div id="ustsocial">
+                       <a href="#"><div id="ust_face_hiza"> <img src="images/ust_facebook.png" /> </div></a>
+                       <a href="#"><div id="ust_twit_hiza"> <img src="images/ust_twitter.png" /> </div></a>
+                       <a href="#"><div id="ust_google_hiza"> <img src="images/ust_google.png" /> </div></a>
+                        <a href="http://www.instagram.com/memoyalin" target="_blank"><div id="ust_insta_hiza"><img src="images/ust_instagram.png" /> </div></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!------------------------------Üst bilgi kodları------------------------------>
+
+
+
+
+            <div id="centermenu">
+
+                <a href="Default.aspx"><div id="logo"></div></a>
+
+
+
+                <div id="aramadiv">
+
+                    <div id="aramatxt">
+                        <asp:TextBox ID="TextBox1" runat="server" CssClass="aramatxtcss" placeholder="Kullanıcı Adı"></asp:TextBox>
+                    </div>
+
+                    <div id="passtxt">
+                        <asp:TextBox ID="TextBox2" runat="server" CssClass="passtxtcss" TextMode="Password" placeholder="Şifre"></asp:TextBox>
+                    </div>
+
+                    <div id="girisbtn">
+                        <asp:Button ID="Button1" runat="server" Text="Giriş Yap" CssClass="girisbtncss" OnClick="Button1_Click" /></div>
+
+                    <div id="sifreunuttxt"><a href="#" class="sifreunutcss" >Şifremi Unuttum!</a></div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+             <div id="menu">
+
+                 <a href="Default.aspx"> 
+                     <div id="menu1">Anasayfa</div> 
+                 </a>
+
+                 <a href="yazilim.aspx">
+                     <div class="menu2">Yazılım</div>
+                 </a>
+
+                 <a href="donanim.aspx">
+                     <div class="menu3">Donanım</div>
+                 </a>
+
+                 <a href="iletisim.aspx">
+                 <div id="menu5">İletişim</div>
+                 </a>
+
+                 <a href="#">
+                 <div id="menu6">Reklam Ver</div>
+                 </a>
+
+                 
+                 <a href="#">
+                 <div class="menu4">Sıkça Sorulan Sorular</div>
+                 </a>
+
+             </div>
+
+
+            <!-------------------Menu kısmı Kodu-------------------->
+
+
+            <div id="kullanici_islemleri">
+                <div id="kullanici_resim">
+                    <asp:Image ID="Image1" runat="server" Height="60px" ImageUrl="~/haber_images/indir.jpg" Visible="False" Width="60px" />
+                </div>
+                <br />
+                <asp:Label ID="Label1" runat="server" Text="Label" Visible="False"></asp:Label>
+                <br />
+                <asp:Label ID="Label2" runat="server" Text="Label" Visible="False"></asp:Label>
+            </div>
+
+
+
+            <div id="icerikdiv">
+
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"> 
+                       
+                </asp:ContentPlaceHolder>
+
+            </div>
+
+
+
+
+            <div id="reklamdiv">
+
+                <div id="reklamdivbaslik">Reklam Alanı</div>
+
+            </div>
+
+
+
+
+
+            <!----------------------Footer kısmı---------------------->
+        </div>
+
+
+
+
+
+
+            <div id="footer">
+
+                <div id="footerust">
+
+                    <div id="footerustort">
+
+                    <a href="Default.aspx"><div id="fotmenu1">Anasayfa</div></a>
+                    <a href="#"><div id="fotmenu2">Yazılım</div></a>
+                    <a href="#"><div id="fotmenu3">Donanım</div></a>
+                    <a href="#"><div id="fotmenu4">Sıkça Sorulan Sorular</div></a>
+                    <a href="iletisim.aspx"><div id="fotmenu5">İletişim</div></a>
+            </div>
+
+                </div>
+
+
+
+
+
+                <div id="footersocial">
+
+                    
+                    <div id="fotface">
+                        <a href="#"><img src="images/icon_link.png" id="fotface1" /></a>
+                         <div id="fotsosisim"><a href="#" class="fotsoslinkcss">Linkedln</a></div>
+                    </div>
+
+                    <div class="fotyan">
+                        <a href="#"><img src="images/icon_you.png" class="fotyan1" /></a>
+                        <div class="fotsosyalisim"><a href="#" class="fotsoslinkcss">YouTube</a></div>
+
+                    </div>
+
+                    <div class="fotyan">
+                        <a href="#"><img src="images/icon_fa.png" class="fotyan1"/></a>
+                        <div class="fotsosyalisim"><a href="#" class="fotsoslinkcss">Facebook</a></div>
+
+                    </div>
+
+                    <div class="fotyan">
+                        <a href="#"><img src="images/icon_tw.png" class="fotyan1"/></a>
+                        <div id="fotsosyaltw"><a href="#" class="fotsoslinkcss">Twitter</a></div>
+
+                    </div>
+
+                    <div class="fotyan">
+                        <a href="#"><img src="images/icon_tum.png" class="fotyan1"/></a>
+                        <div id="fotsosyaltm"><a href="#" class="fotsoslinkcss">TumBlr</a></div>
+
+                    </div>
+
+                    <div class="fotyan">
+                        <a href="#"><img src="images/icon_go.png" class="fotyan1"/></a>
+                        <div id="fotsosyalgo"><a href="#" class="fotsoslinkcss">Google</a></div>
+                    </div>
+
+                    <div class="fotyan">
+                        <a href="#"><img src="images/icon_ins.png" class="fotyan1"/></a>
+                        <div id="fotsosyalin"><a href="#" class="fotsoslinkcss">İnstagram</a></div>
+                    </div>
+                    
+                </div>
+
+
+
+                                       
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+
+
+                <div id="footerilet">
+
+                    <div id="fotmail"><img src="images/icon_mail.png" /> info@mnknsro413.com</div>
+
+                    <div id="fottel"><img src="images/icon_tel.png" /> (0545) 725-0440</div>
+
+                    <div id="fotadres"><img src="images/icon_home.png" /> Hatay Merkez </div>
+
+                </div>
+
+
+
+
+
+                <div id="foteryazi">
+                    © 2018 Prepared by TeknoBit. All Rights Reserved.
+                </div>
+
+
+
+            </div>
+    </form>
+</body>
+</html>
